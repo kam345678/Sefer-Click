@@ -4,8 +4,8 @@ import { Controller, Get } from '@nestjs/common';
 export class ScanController {
     @Get()
     testScan() {
-      return {
-      message: 'Scan API is working',
+    return {
+      message: 'Scan API is working', // Simple test endpoint
     };
   }
 }
